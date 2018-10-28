@@ -1,1 +1,68 @@
 /* Styles for the Advanced Markup assignment. */
+
+h1  {
+    text-align: center;
+}
+
+h2  {
+    font-weight: 900;
+    text-align: center;
+}
+
+.spacing {
+    line-height: 1.2em;
+}
+
+/* About Page Styles*/
+dt  {
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+} 
+.bio-photo  {
+    width: 25%;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    background: #cccccc;
+}
+.bio-photo img  {
+   width: 100%;
+   height: auto;
+}
+
+
+
+/* Sidebar Styles */
+#sidebar  {
+    float: right;
+    width: 20%;
+    border: 1px dotted black;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;  
+}
+
+/* Navigation Styles*/
+nav ul li {
+    display: inline;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.active  {
+    font-weight: 900;
+    background: #cccccc;
+    padding: 5px;
+}
+
+/* Table Styles*/
+table  {
+    width: 100%;
+    text-align: left;
+}
+#poem  {
+    font-family: fantasy, georgia, sans-serif;
+    font-size: 1.2em;
+    line-height: 2.5;
+}
